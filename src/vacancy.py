@@ -5,7 +5,7 @@ from classes import HeadHunterAPI
 class Vacancy:
 
     def __init__(self, name, experience, salary_from, salary_to,
-                 salary_currency, employer, area, schedule):
+                 salary_currency, employer, area, schedule, platform):
         self.__name = name
         self.__experience = experience
         self.__salary_from = salary_from
@@ -14,6 +14,7 @@ class Vacancy:
         self.__employer = employer
         self.__area = area
         self.__schedule = schedule
+        self.__platform = platform
 
         # self.__name = kwargs[0]
         # self.__experience = kwargs[1]
@@ -41,7 +42,8 @@ class Vacancy:
                 # f'{BLUE}Зарплата:{NONCOLOR} от {self.__salary_from}\n'
                 f'{BLUE}Зарплата:{NONCOLOR} от {self.__salary_from if self.__salary_from else CS1} '
                 f'до {self.__salary_to if self.__salary_to else CS1} '
-                f'{f"({self.__salary_currency})" if self.__salary_from or self.__salary_to else CS2}')
+                f'{f"({self.__salary_currency})" if self.__salary_from or self.__salary_to else CS2}\n'
+                f'{BLUE}Платформа:{NONCOLOR}  {self.__platform}')
 
     def __lt__(self, other):
         if isinstance(other, int):

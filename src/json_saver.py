@@ -39,7 +39,8 @@ class JSONSaver:
                                           i['salary_currency'],
                                           i['employer'],
                                           i['area'],
-                                          i['schedule']
+                                          i['schedule'],
+                                          i['platform']
                                           )
                                   )
 
