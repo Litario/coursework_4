@@ -129,7 +129,7 @@ class HeadHunterAPI(abc_class):
 
 # ic(hh_api.get_vacancies('Python'))
 
-sj_api = SuperJobAPI()
+# sj_api = SuperJobAPI()
 # print(type(sj_api.get_vacancies('Python')))
 # pprint(sj_api.get_vacancies('Python'))
 # print(sj_api.get_vacancies('Python')['profession'])

@@ -1,9 +1,8 @@
 from src.classes import HeadHunterAPI
 from src.classes import SuperJobAPI
-from src.json_saver import JSONSaver
 from src.function import output_sorted_vacancies, output_filtered_vacancies
-from work_data.constants import GREEN, BLUE
-from work_data.constants import NONCOLOR, YELLOW
+from src.json_saver import JSONSaver
+from work_data.constants import NONCOLOR, YELLOW, GREEN, BLUE
 
 if __name__ == '__main__':
 
@@ -44,7 +43,7 @@ if __name__ == '__main__':
                                 f'{GREEN}4{NONCOLOR} - вывести список вакансий, с фильтрацией по городу\n')
 
         if task_query in ('1', '2'):
-            vn = input(f"\nВы можете ввести кол-во вакансий, для вывода.\n"
+            vn = input(f"\nВы можете указать кол-во вакансий, для вывода.\n"
                        f"Нажмите {GREEN}Enter{NONCOLOR},"
                        f"если хотите пропустить этот пункт\n")
 

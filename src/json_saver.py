@@ -4,7 +4,6 @@ from src.vacancy import Vacancy
 
 
 class JSONSaver:
-    d = [{1: 1, 2: 2, 3: 3}]
 
     def __init__(self, file_name):
         self.file_name = file_name
