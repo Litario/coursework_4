@@ -1,5 +1,4 @@
 import json
-from pprint import pprint
 
 import requests
 
@@ -21,6 +20,3 @@ def get_currency_rate():
 
     with open(dir_file, mode='w') as file:
         json.dump(response_data, file, indent=2)
-
-
-get_currency_rate()

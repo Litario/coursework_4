@@ -1,6 +1,5 @@
 import json
 
-from src.apilayer import get_currency_rate
 from work_data.constants import NONCOLOR, BLUE
 
 
@@ -91,15 +90,6 @@ class Vacancy:
 
                 f'{BLUE}Платформа:{NONCOLOR} {self.__platform}')
 
-        # return (f'{BLUE}Вакансия:{NONCOLOR} {self.__name}\n'
-        #         f'{BLUE}Опыт работы:{NONCOLOR} {self.__experience}\n'
-        #         f'{BLUE}Город:{NONCOLOR} {self.__area}\n'
-        #         # f'{BLUE}Зарплата:{NONCOLOR} от {self.__salary_from}\n'
-        #         f'{BLUE}Зарплата:{NONCOLOR} от {f"{self.__salary_from:_}" if self.__salary_from else STR_CS1}'
-        #         f' до {f"{self.__salary_to:_}" if self.__salary_to else STR_CS1} '
-        #         f'{f"({self.__salary_currency})" if self.__salary_from or self.__salary_to else STR_CS2}\n'
-        #         f'{BLUE}Платформа:{NONCOLOR} {self.__platform}')
-
     def __lt__(self, other):
         if isinstance(other, int):
             return self.__rub_salary_from < other
@@ -109,10 +99,3 @@ class Vacancy:
         if isinstance(other, int):
             return self.__rub_salary_from > other
         return self.__rub_salary_from > other.__rub_salary_from
-
-# vacancy = Vacancy()
-
-# for i in vacancy.mt():
-#     for k, v in i.items():
-#         print(YELLOW, k, NONCOLOR, v)
-#     print()

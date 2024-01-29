@@ -1,10 +1,8 @@
 from abc import ABC, abstractmethod
-from pprint import pprint
 
 import requests
 
 from config.api_config import SuperJob_APIKey
-from work_data.constants import NONCOLOR, YELLOW
 
 
 class abc_class(ABC):
@@ -74,7 +72,7 @@ class HeadHunterAPI(abc_class):
         self.__url = 'https://api.hh.ru'
         self.__platform = 'HeadHunter'
 
-    def get_vacancies(self, value: str, per_page: int = 40) -> list:
+    def get_vacancies(self, value: str, per_page: int = 20) -> list:
         """
         Создает список вакансий по параметру запроса text API HeadHunter.
         :param per_page: количество вакансий на странице
@@ -115,24 +113,3 @@ class HeadHunterAPI(abc_class):
             filter_vacancies.append(vacancy)
 
         return filter_vacancies
-
-
-# hh_api = HeadHunterAPI()
-# print(hh_api.get_vacancies('Python'))
-# x = hh_api.get_filtered_vacancies('Python')
-# print(x)
-
-# for i in x:
-#     for k, v in i.items():
-#         print(YELLOW, k, NONCOLOR, v)
-#     print()
-
-# ic(hh_api.get_vacancies('Python'))
-
-# sj_api = SuperJobAPI()
-# print(type(sj_api.get_vacancies('Python')))
-# pprint(sj_api.get_vacancies('Python'))
-# print(sj_api.get_vacancies('Python')['profession'])
-
-# x = sj_api.get_filtered_vacancies('Python')
-# pprint(x)
