@@ -23,4 +23,4 @@ def get_currency_rate():
         json.dump(response_data, file, indent=2)
 
 
-# get_currency_rate()
+get_currency_rate()

@@ -17,17 +17,17 @@ def output_sorted_vacancies(data: list[Vacancy], vacancy_number: int = 0,
     if sorting:
         for i in sorted(data, reverse=sorting)[:n]:
             print(i)
-            print('-' * 60)
+            print('-' * 70)
     else:
         if salary_zero_filter:
             filtered_data: list[Vacancy] = filter(lambda v: v > 0, data)
             for i in sorted(filtered_data, reverse=sorting)[:n]:
                 print(i)
-                print('-' * 60)
+                print('-' * 70)
         else:
             for i in sorted(data, reverse=sorting)[:n]:
                 print(i)
-                print('-' * 60)
+                print('-' * 70)
 
 
 def output_filtered_vacancies(data: list[Vacancy], search_word: str, key=1):
@@ -55,7 +55,7 @@ def output_filtered_vacancies(data: list[Vacancy], search_word: str, key=1):
     if len(filtered_vacancies_list):
         for j in sorted(filtered_vacancies_list, key=lambda v: v.area):
             print(j)
-            print('-' * 60)
+            print('-' * 70)
     else:
         STR_CS1 = 'Нет ни одной вакансии, содержащей такое слово в названии.'
         STR_CS2 = 'Неправильно указан город. Рекомендуем посмотреть статистику вакансий по городам.'

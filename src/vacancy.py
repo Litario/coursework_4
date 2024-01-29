@@ -43,9 +43,9 @@ class Vacancy:
             with open(dir_file, mode='r') as file:
                 currency_base: dict = json.load(file)
 
-            currency_base.setdefault('RUR', 1)
             currency_base.setdefault('rub', 1)
             currency_base.setdefault('RUB', 1)
+            currency_base.setdefault('RUR', 1)
 
             if self.__salary_from is None:
                 self.__rub_salary_from = 0
@@ -69,12 +69,13 @@ class Vacancy:
         STR_CS1 = '<не указано>'
         STR_CS2 = ''
 
-        if self.__salary_currency in ('rub', 'RUR', 'RUB'):
+        if self.__salary_currency in ('rub', 'RUR', 'RUB', None):
             return (f'{BLUE}Вакансия:{NONCOLOR} {self.__name}\n'
                     f'{BLUE}Опыт работы:{NONCOLOR} {self.__experience}\n'
                     f'{BLUE}Город:{NONCOLOR} {self.__area}\n'
                     f'{BLUE}Зарплата:{NONCOLOR} от {f"{self.__salary_from:_}" if self.__salary_from else STR_CS1}'
-                    f' до {f"{self.__salary_to:_}" if self.__salary_to else STR_CS1} ({self.__salary_currency})\n'
+                    f' до {f"{self.__salary_to:_}" if self.__salary_to else STR_CS1} '
+                    f'{f"({self.__salary_currency})" if self.__salary_from or self.__salary_to else STR_CS2}\n'
                     f'{BLUE}Платформа:{NONCOLOR} {self.__platform}')
 
         return (f'{BLUE}Вакансия:{NONCOLOR} {self.__name}\n'
@@ -108,7 +109,6 @@ class Vacancy:
         if isinstance(other, int):
             return self.__rub_salary_from > other
         return self.__rub_salary_from > other.__rub_salary_from
-
 
 # vacancy = Vacancy()
 
