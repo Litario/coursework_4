@@ -1,0 +1,842 @@
+[
+    {
+        "name": "Программист Python junior",
+        "experience": "От 1 года до 3 лет",
+        "salary_from": 300,
+        "salary_to": 1000,
+        "salary_currency": "USD",
+        "employer": {
+            "name": "Рэдис Бай",
+            "url": "https://api.hh.ru/employers/3189689"
+        },
+        "area": "Минск",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Web-программист - стажер",
+        "experience": "Нет опыта",
+        "salary_from": 0,
+        "salary_to": 0,
+        "salary_currency": null,
+        "employer": {
+            "name": "Autodata",
+            "url": "https://api.hh.ru/employers/5031522"
+        },
+        "area": "Алматы",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Junior Python-разработчик",
+        "experience": "Нет опыта",
+        "salary_from": 0,
+        "salary_to": 0,
+        "salary_currency": null,
+        "employer": {
+            "name": "СОГАЗ",
+            "url": "https://api.hh.ru/employers/955"
+        },
+        "area": "Москва",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Python Developer",
+        "experience": "От 1 года до 3 лет",
+        "salary_from": 0,
+        "salary_to": 0,
+        "salary_currency": null,
+        "employer": {
+            "name": "Каспи Софтвер",
+            "url": "https://api.hh.ru/employers/2207874"
+        },
+        "area": "Минск",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Младший аналитик (IT)",
+        "experience": "Нет опыта",
+        "salary_from": 100000,
+        "salary_to": 140000,
+        "salary_currency": "RUR",
+        "employer": {
+            "name": "Olima",
+            "url": "https://api.hh.ru/employers/5686111"
+        },
+        "area": "Санкт-Петербург",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Начинающий Разработчик AI Python (Удаленно)",
+        "experience": "Нет опыта",
+        "salary_from": 500,
+        "salary_to": 800,
+        "salary_currency": "USD",
+        "employer": {
+            "name": "LATOKEN",
+            "url": "https://api.hh.ru/employers/2870783"
+        },
+        "area": "Ташкент",
+        "schedule": "Удаленная работа",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Python backend разработчик",
+        "experience": "От 1 года до 3 лет",
+        "salary_from": 0,
+        "salary_to": 0,
+        "salary_currency": null,
+        "employer": {
+            "name": "Everypixel group",
+            "url": "https://api.hh.ru/employers/573161"
+        },
+        "area": "Санкт-Петербург",
+        "schedule": "Удаленная работа",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Стажер-разработчик",
+        "experience": "Нет опыта",
+        "salary_from": 100000,
+        "salary_to": 150000,
+        "salary_currency": "KZT",
+        "employer": {
+            "name": "Prime Source",
+            "url": "https://api.hh.ru/employers/737295"
+        },
+        "area": "Алматы",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Junior backend developer Python",
+        "experience": "От 1 года до 3 лет",
+        "salary_from": 0,
+        "salary_to": 0,
+        "salary_currency": null,
+        "employer": {
+            "name": "Tripster",
+            "url": "https://api.hh.ru/employers/1096484"
+        },
+        "area": "Москва",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "IT специалист в офис",
+        "experience": "От 1 года до 3 лет",
+        "salary_from": 1500,
+        "salary_to": 3000,
+        "salary_currency": "USD",
+        "employer": {
+            "name": "Павлов Владимир",
+            "url": "https://api.hh.ru/employers/9405691"
+        },
+        "area": "Тбилиси",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Junior Data-аналитик (Kolesa Academy)/Стажер",
+        "experience": "Нет опыта",
+        "salary_from": 200000,
+        "salary_to": 200000,
+        "salary_currency": "KZT",
+        "employer": {
+            "name": "Колеса",
+            "url": "https://api.hh.ru/employers/40662"
+        },
+        "area": "Алматы",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Software Test Engineer",
+        "experience": "От 1 года до 3 лет",
+        "salary_from": 0,
+        "salary_to": 0,
+        "salary_currency": null,
+        "employer": {
+            "name": "Норс АйТи Групп",
+            "url": "https://api.hh.ru/employers/3914995"
+        },
+        "area": "Заславль",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Junior Python-программист",
+        "experience": "Нет опыта",
+        "salary_from": 45000,
+        "salary_to": null,
+        "salary_currency": "RUR",
+        "employer": {
+            "name": "ЛАБИРИНТ",
+            "url": "https://api.hh.ru/employers/17488"
+        },
+        "area": "Москва",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Frontend-разработчик (стажер)",
+        "experience": "Нет опыта",
+        "salary_from": 0,
+        "salary_to": 0,
+        "salary_currency": null,
+        "employer": {
+            "name": "AddCode",
+            "url": "https://api.hh.ru/employers/6097664"
+        },
+        "area": "Обнинск",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Manual QA Engineer (Mid+)",
+        "experience": "От 3 до 6 лет",
+        "salary_from": 6000,
+        "salary_to": null,
+        "salary_currency": "USD",
+        "employer": {
+            "name": "AINAUTS LLC",
+            "url": "https://api.hh.ru/employers/9916159"
+        },
+        "area": "Москва",
+        "schedule": "Гибкий график",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Backend разработчик Python",
+        "experience": "От 1 года до 3 лет",
+        "salary_from": 80000,
+        "salary_to": 180000,
+        "salary_currency": "RUR",
+        "employer": {
+            "name": "WBPROD",
+            "url": "https://api.hh.ru/employers/9887405"
+        },
+        "area": "Москва",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Стажер-программист Python",
+        "experience": "От 1 года до 3 лет",
+        "salary_from": 60000,
+        "salary_to": null,
+        "salary_currency": "RUR",
+        "employer": {
+            "name": "Автономные беспилотные системы",
+            "url": "https://api.hh.ru/employers/9295409"
+        },
+        "area": "Москва",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Backend-разработчик Python",
+        "experience": "От 1 года до 3 лет",
+        "salary_from": 0,
+        "salary_to": 160000,
+        "salary_currency": "RUR",
+        "employer": {
+            "name": "Spider Group",
+            "url": "https://api.hh.ru/employers/88661"
+        },
+        "area": "Москва",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Программист Python junior",
+        "experience": "От 1 года до 3 лет",
+        "salary_from": 85000,
+        "salary_to": 90000,
+        "salary_currency": "RUR",
+        "employer": {
+            "name": "CDNvideo (ООО СДН-видео)",
+            "url": "https://api.hh.ru/employers/864643"
+        },
+        "area": "Москва",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Junior BackEnd Developer",
+        "experience": "От 1 года до 3 лет",
+        "salary_from": 90000,
+        "salary_to": 130000,
+        "salary_currency": "RUR",
+        "employer": {
+            "name": "ЭС-АЙ Безопасность",
+            "url": "https://api.hh.ru/employers/3471807"
+        },
+        "area": "Москва",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Разработчик Python/Django",
+        "experience": "От 1 года до 3 лет",
+        "salary_from": 0,
+        "salary_to": 0,
+        "salary_currency": null,
+        "employer": {
+            "name": "Т8",
+            "url": "https://api.hh.ru/employers/575393"
+        },
+        "area": "Москва",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Разработчик Python (Junior) / Artist DI",
+        "experience": "От 1 года до 3 лет",
+        "salary_from": 0,
+        "salary_to": 0,
+        "salary_currency": null,
+        "employer": {
+            "name": "СиДжиФэктори",
+            "url": "https://api.hh.ru/employers/992438"
+        },
+        "area": "Москва",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Программист Python",
+        "experience": "От 3 до 6 лет",
+        "salary_from": 0,
+        "salary_to": 0,
+        "salary_currency": null,
+        "employer": {
+            "name": "KD-systems",
+            "url": "https://api.hh.ru/employers/4926973"
+        },
+        "area": "Москва",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Python разработчик",
+        "experience": "От 1 года до 3 лет",
+        "salary_from": 0,
+        "salary_to": 0,
+        "salary_currency": null,
+        "employer": {
+            "name": "Иви",
+            "url": "https://api.hh.ru/employers/136929"
+        },
+        "area": "Москва",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Backend developer",
+        "experience": "От 1 года до 3 лет",
+        "salary_from": 0,
+        "salary_to": 0,
+        "salary_currency": null,
+        "employer": {
+            "name": "Октопустех",
+            "url": "https://api.hh.ru/employers/10603468"
+        },
+        "area": "Москва",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Начинающий Разработчик AI Python (Удаленно)",
+        "experience": "Нет опыта",
+        "salary_from": 500,
+        "salary_to": 800,
+        "salary_currency": "USD",
+        "employer": {
+            "name": "LATOKEN",
+            "url": "https://api.hh.ru/employers/2870783"
+        },
+        "area": "Баку",
+        "schedule": "Удаленная работа",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Программист Python",
+        "experience": "От 1 года до 3 лет",
+        "salary_from": 0,
+        "salary_to": 0,
+        "salary_currency": null,
+        "employer": {
+            "name": "ОсОО Предприятие №7",
+            "url": "https://api.hh.ru/employers/10595685"
+        },
+        "area": "Бишкек",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Бэкенд - разработчик / Backend developer / Backend - разработчик (удалённо)",
+        "experience": "Нет опыта",
+        "salary_from": 130000,
+        "salary_to": 200000,
+        "salary_currency": "RUR",
+        "employer": {
+            "name": "Широкова Лариса Юрьевна",
+            "url": "https://api.hh.ru/employers/9062103"
+        },
+        "area": "Москва",
+        "schedule": "Гибкий график",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Аналитик данных",
+        "experience": "От 1 года до 3 лет",
+        "salary_from": 400000,
+        "salary_to": null,
+        "salary_currency": "KZT",
+        "employer": {
+            "name": "Sengir",
+            "url": "https://api.hh.ru/employers/10720550"
+        },
+        "area": "Астана",
+        "schedule": "Гибкий график",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Стажер-разработчик Python",
+        "experience": "Нет опыта",
+        "salary_from": 1900,
+        "salary_to": null,
+        "salary_currency": "BYR",
+        "employer": {
+            "name": "Технологии пользовательских интерфейсов",
+            "url": "https://api.hh.ru/employers/9078447"
+        },
+        "area": "Гродно",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Программист-стажер WEB приложений",
+        "experience": "Нет опыта",
+        "salary_from": 60000,
+        "salary_to": null,
+        "salary_currency": "RUR",
+        "employer": {
+            "name": "ИАТВТ",
+            "url": "https://api.hh.ru/employers/82897"
+        },
+        "area": "Москва",
+        "schedule": "Удаленная работа",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Аналитик данных",
+        "experience": "Нет опыта",
+        "salary_from": 0,
+        "salary_to": 0,
+        "salary_currency": null,
+        "employer": {
+            "name": "Капиталбанк",
+            "url": "https://api.hh.ru/employers/2552465"
+        },
+        "area": "Ташкент",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Специалист по тестированию",
+        "experience": "От 1 года до 3 лет",
+        "salary_from": 0,
+        "salary_to": 0,
+        "salary_currency": null,
+        "employer": {
+            "name": "Еврокаппа",
+            "url": "https://api.hh.ru/employers/2595644"
+        },
+        "area": "Москва",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Стажер Data scientist",
+        "experience": "Нет опыта",
+        "salary_from": 0,
+        "salary_to": 0,
+        "salary_currency": null,
+        "employer": {
+            "name": "РОВИ Факторинг Плюс",
+            "url": "https://api.hh.ru/employers/4135745"
+        },
+        "area": "Москва",
+        "schedule": "Гибкий график",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Python разработчик (Django)",
+        "experience": "От 1 года до 3 лет",
+        "salary_from": 60000,
+        "salary_to": 100000,
+        "salary_currency": "RUR",
+        "employer": {
+            "name": "HALOART",
+            "url": "https://api.hh.ru/employers/1954592"
+        },
+        "area": "Санкт-Петербург",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Python Developer",
+        "experience": "От 1 года до 3 лет",
+        "salary_from": 45000,
+        "salary_to": null,
+        "salary_currency": "RUR",
+        "employer": {
+            "name": "ФОДЖИН",
+            "url": "https://api.hh.ru/employers/6164545"
+        },
+        "area": "Ростов-на-Дону",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Руководитель отдела тестирования",
+        "experience": "От 3 до 6 лет",
+        "salary_from": 0,
+        "salary_to": 0,
+        "salary_currency": null,
+        "employer": {
+            "name": "БУРГЕР КИНГ РОССИЯ",
+            "url": "https://api.hh.ru/employers/625332"
+        },
+        "area": "Москва",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Backend developer (python)",
+        "experience": "От 1 года до 3 лет",
+        "salary_from": 0,
+        "salary_to": 0,
+        "salary_currency": null,
+        "employer": {
+            "name": "Манзони",
+            "url": "https://api.hh.ru/employers/4390465"
+        },
+        "area": "Санкт-Петербург",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Исследователь",
+        "experience": "От 1 года до 3 лет",
+        "salary_from": 60000,
+        "salary_to": null,
+        "salary_currency": "RUR",
+        "employer": {
+            "name": "Европейский университет в Санкт-Петербурге",
+            "url": "https://api.hh.ru/employers/837193"
+        },
+        "area": "Санкт-Петербург",
+        "schedule": "Полный день",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Аналитик со знанием Phyton",
+        "experience": "От 1 года до 3 лет",
+        "salary_from": 140000,
+        "salary_to": null,
+        "salary_currency": "RUR",
+        "employer": {
+            "name": "SIMRUSSIA",
+            "url": "https://api.hh.ru/employers/144006"
+        },
+        "area": "Москва",
+        "schedule": "Удаленная работа",
+        "platform": "HeadHunter"
+    },
+    {
+        "name": "Старший аналитик данных в CRM (Отдел анализа эффективности некредитного направления)",
+        "experience": "От 1 года",
+        "salary_from": 0,
+        "salary_to": 0,
+        "salary_currency": "rub",
+        "employer": {
+            "name": "Банк ВТБ (ПАО)",
+            "url": "https://www.superjob.ru/vakansii/starshij-analitik-dannyh-v-crm-46759846.html"
+        },
+        "area": "Москва",
+        "schedule": "Полный рабочий день",
+        "platform": "SuperJob"
+    },
+    {
+        "name": "Сетевой инженер",
+        "experience": "От 1 года",
+        "salary_from": 70000,
+        "salary_to": 100000,
+        "salary_currency": "rub",
+        "employer": {
+            "name": "Кировтелеком",
+            "url": "https://spb.superjob.ru/vakansii/setevoj-inzhener-46941423.html"
+        },
+        "area": "Санкт-Петербург",
+        "schedule": "Полный рабочий день",
+        "platform": "SuperJob"
+    },
+    {
+        "name": "Маркетинговый аналитик",
+        "experience": "От 1 года",
+        "salary_from": 0,
+        "salary_to": 0,
+        "salary_currency": "rub",
+        "employer": {
+            "name": "Перекрёсток",
+            "url": "https://www.superjob.ru/vakansii/marketingovyj-analitik-47506340.html"
+        },
+        "area": "Москва",
+        "schedule": "Полный рабочий день",
+        "platform": "SuperJob"
+    },
+    {
+        "name": "Специалист по информационной безопасности",
+        "experience": "Без опыта",
+        "salary_from": 60000,
+        "salary_to": 70000,
+        "salary_currency": "rub",
+        "employer": {
+            "name": "КНИРТИ",
+            "url": "https://obninsk.superjob.ru/vakansii/specialist-po-informacionnoj-bezopasnosti-47702106.html"
+        },
+        "area": "Обнинск",
+        "schedule": "Полный рабочий день",
+        "platform": "SuperJob"
+    },
+    {
+        "name": "Системный администратор",
+        "experience": "От 3 лет",
+        "salary_from": 80000,
+        "salary_to": 0,
+        "salary_currency": "rub",
+        "employer": {
+            "name": "ВегаГрупп",
+            "url": "https://volokolamsk.superjob.ru/vakansii/sistemnyj-administrator-32479990.html"
+        },
+        "area": "Волоколамск",
+        "schedule": "Полный рабочий день",
+        "platform": "SuperJob"
+    },
+    {
+        "name": "Преподаватель программирования, веб-разработки",
+        "experience": "От 1 года",
+        "salary_from": 40000,
+        "salary_to": 0,
+        "salary_currency": "rub",
+        "employer": {
+            "name": "Государственное автономное профессиональное образовательное учреждение \" Волгоградский социально-педагогический колледж\" (ГАПОУ \"ВСПК\")",
+            "url": "https://volgograd.superjob.ru/vakansii/prepodavatel-programmirovaniya-38561557.html"
+        },
+        "area": "Волгоград",
+        "schedule": "Полный рабочий день",
+        "platform": "SuperJob"
+    },
+    {
+        "name": "Инженер-программист",
+        "experience": "Без опыта",
+        "salary_from": 39826,
+        "salary_to": 39826,
+        "salary_currency": "rub",
+        "employer": {
+            "name": "УГИБДД УМВД России по Астраханской области",
+            "url": "https://astrakhan.superjob.ru/vakansii/inzhener-programmist-43503556.html"
+        },
+        "area": "Астрахань",
+        "schedule": "Полный рабочий день",
+        "platform": "SuperJob"
+    },
+    {
+        "name": "Программист",
+        "experience": "От 1 года",
+        "salary_from": 60000,
+        "salary_to": 0,
+        "salary_currency": "rub",
+        "employer": {
+            "name": "Департамент городского хозяйства",
+            "url": "https://kolomna.superjob.ru/vakansii/programmist-45594068.html"
+        },
+        "area": "Коломна",
+        "schedule": "Полный рабочий день",
+        "platform": "SuperJob"
+    },
+    {
+        "name": "Учитель по программированию",
+        "experience": "Без опыта",
+        "salary_from": 0,
+        "salary_to": 60000,
+        "salary_currency": "rub",
+        "employer": {
+            "name": "Школа программирования",
+            "url": "https://andreevka.superjob.ru/vakansii/uchitel-po-programmirovaniyu-45698480.html"
+        },
+        "area": "Андреевка",
+        "schedule": "Неполный рабочий день",
+        "platform": "SuperJob"
+    },
+    {
+        "name": "Преподаватель по программированию",
+        "experience": "Без опыта",
+        "salary_from": 1000,
+        "salary_to": 1500,
+        "salary_currency": "rub",
+        "employer": {
+            "name": "Искандарова Гузель Римовна",
+            "url": "https://ufa.superjob.ru/vakansii/prepodavatel-po-programmirovaniyu-46638375.html"
+        },
+        "area": "Уфа",
+        "schedule": "Сменный график работы",
+        "platform": "SuperJob"
+    },
+    {
+        "name": "Инженер-программист",
+        "experience": "От 1 года",
+        "salary_from": 50000,
+        "salary_to": 0,
+        "salary_currency": "rub",
+        "employer": {
+            "name": "Волжский трубный завод",
+            "url": "https://volzhskiy.superjob.ru/vakansii/inzhener-programmist-47078636.html"
+        },
+        "area": "Волжский",
+        "schedule": "Полный рабочий день",
+        "platform": "SuperJob"
+    },
+    {
+        "name": "Аналитик",
+        "experience": "От 1 года",
+        "salary_from": 0,
+        "salary_to": 0,
+        "salary_currency": "rub",
+        "employer": {
+            "name": "Группа Полюс",
+            "url": "https://spb.superjob.ru/vakansii/analitik-47453001.html"
+        },
+        "area": "Санкт-Петербург",
+        "schedule": "Полный рабочий день",
+        "platform": "SuperJob"
+    },
+    {
+        "name": "Специалист по обработке данных (здравоохранение)",
+        "experience": "Без опыта",
+        "salary_from": 0,
+        "salary_to": 75000,
+        "salary_currency": "rub",
+        "employer": {
+            "name": "ФГБУ Центр стратегического планирования медико-биологических рисков ФМБА РФ",
+            "url": "https://www.superjob.ru/vakansii/specialist-po-obrabotke-dannyh-47195490.html"
+        },
+        "area": "Москва",
+        "schedule": "Полный рабочий день",
+        "platform": "SuperJob"
+    },
+    {
+        "name": "Campaign Manager / Менеджер кампании",
+        "experience": "От 1 года",
+        "salary_from": 220000,
+        "salary_to": 0,
+        "salary_currency": "rub",
+        "employer": {
+            "name": "МАРКЕТИНГ ЭМОУШЕНС",
+            "url": "https://www.superjob.ru/vakansii/campaign-manager-47751963.html"
+        },
+        "area": "Москва",
+        "schedule": "Полный рабочий день",
+        "platform": "SuperJob"
+    },
+    {
+        "name": "Начальник сектора",
+        "experience": "От 1 года",
+        "salary_from": 0,
+        "salary_to": 0,
+        "salary_currency": "rub",
+        "employer": {
+            "name": "Сбербанк России",
+            "url": "https://samara.superjob.ru/vakansii/nachalnik-sektora-48029149.html"
+        },
+        "area": "Самара",
+        "schedule": "Сменный график работы",
+        "platform": "SuperJob"
+    },
+    {
+        "name": "DevOps-инженер",
+        "experience": "От 3 лет",
+        "salary_from": 0,
+        "salary_to": 0,
+        "salary_currency": "rub",
+        "employer": {
+            "name": "SuperJob",
+            "url": "https://www.superjob.ru/vakansii/devops-inzhener-48366477.html"
+        },
+        "area": "Москва",
+        "schedule": "Полный рабочий день",
+        "platform": "SuperJob"
+    },
+    {
+        "name": "Python-разработчик (middle) / backend developer",
+        "experience": "От 3 лет",
+        "salary_from": 80000,
+        "salary_to": 130000,
+        "salary_currency": "rub",
+        "employer": {
+            "name": "УПРАВЛЯЕМЫЕ ПРОЦЕССЫ",
+            "url": "https://tula.superjob.ru/vakansii/python-razrabotchik-48446482.html"
+        },
+        "area": "Тула",
+        "schedule": "Полный рабочий день",
+        "platform": "SuperJob"
+    },
+    {
+        "name": "Web-разработчик (backend)",
+        "experience": "От 1 года",
+        "salary_from": 100000,
+        "salary_to": 0,
+        "salary_currency": "rub",
+        "employer": {
+            "name": "ЕвроАвто",
+            "url": "https://spb.superjob.ru/vakansii/web-razrabotchik-41964533.html"
+        },
+        "area": "Санкт-Петербург",
+        "schedule": "Полный рабочий день",
+        "platform": "SuperJob"
+    },
+    {
+        "name": "Инженер-радиоэлектронщик 1 категории",
+        "experience": "Без опыта",
+        "salary_from": 100000,
+        "salary_to": 0,
+        "salary_currency": "rub",
+        "employer": {
+            "name": "Радиофизика",
+            "url": "https://www.superjob.ru/vakansii/inzhener-radioelektronschik-1-kategorii-43148990.html"
+        },
+        "area": "Москва",
+        "schedule": "Полный рабочий день",
+        "platform": "SuperJob"
+    },
+    {
+        "name": "Программист Linux",
+        "experience": "От 3 лет",
+        "salary_from": 100000,
+        "salary_to": 500000,
+        "salary_currency": "rub",
+        "employer": {
+            "name": "Фактор-ТС",
+            "url": "https://www.superjob.ru/vakansii/programmist-linux-45695529.html"
+        },
+        "area": "Москва",
+        "schedule": "Полный рабочий день",
+        "platform": "SuperJob"
+    }
+]
