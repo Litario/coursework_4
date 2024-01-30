@@ -1,4 +1,5 @@
 
-SuperJob_APIKey = "key"
+SuperJob_APIKey = 'key'
 
-APILayer_APIKey = "key"
+APILayer_APIKey = 'key'
+
