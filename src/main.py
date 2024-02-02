@@ -3,6 +3,7 @@ from src.classes import HeadHunterAPI
 from src.classes import SuperJobAPI
 from src.function import output_sorted_vacancies, output_filtered_vacancies
 from src.json_saver import JSONSaver
+from work_data.adress import DATA_BASE_PATH
 from work_data.constants import NONCOLOR, YELLOW, GREEN, BLUE, RED
 
 if __name__ == '__main__':
@@ -12,7 +13,7 @@ if __name__ == '__main__':
                           "\n"
                           "Хотите обновить базу данных с курсом не рублевых зарплат через сайт\n"
                           "apilayer.com (необходим APIKey) ?\n"
-                          "[Нажмите Enter, чтобы пропустить вопрос]\n")
+                          "[Нажмите Enter, чтобы пропустить вопрос]")
 
     if apilayer_task in ('да', 'yes'):
         ## обновление базы данных с курсами валют относительно рубля
@@ -33,7 +34,7 @@ if __name__ == '__main__':
         #                         'поиск в вакансиях:\n')
         word_query: str = 'python'
 
-        dir_file = '../data/data_base.json'
+        dir_file = DATA_BASE_PATH
         json_saver = JSONSaver(dir_file)
 
         if platform_query == '0':

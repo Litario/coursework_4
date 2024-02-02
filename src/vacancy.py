@@ -1,6 +1,7 @@
 import json
 
 from src.apilayer import get_currency_rate
+from work_data.adress import DATA_CURRENCY_PATH
 from work_data.constants import NONCOLOR, BLUE
 
 
@@ -39,7 +40,7 @@ class Vacancy:
             self.__rub_salary_to = 0
 
         else:
-            dir_file = '../data/data_currency.json'
+            dir_file = DATA_CURRENCY_PATH
             with open(dir_file, mode='r') as file:
                 currency_base: dict = json.load(file)
 
@@ -66,28 +67,28 @@ class Vacancy:
         return self.__area
 
     def __str__(self):
-        STR_CS1 = '<не указано>'
-        STR_CS2 = ''
+        l_cs1 = '<не указано>'
+        l_cs2 = ''
 
         if self.__salary_currency in ('rub', 'RUR', 'RUB', None):
             return (f'{BLUE}Вакансия:{NONCOLOR} {self.__name}\n'
                     f'{BLUE}Опыт работы:{NONCOLOR} {self.__experience}\n'
                     f'{BLUE}Город:{NONCOLOR} {self.__area}\n'
-                    f'{BLUE}Зарплата:{NONCOLOR} от {f"{self.__salary_from:_}" if self.__salary_from else STR_CS1}'
-                    f' до {f"{self.__salary_to:_}" if self.__salary_to else STR_CS1} '
-                    f'{f"({self.__salary_currency})" if self.__salary_from or self.__salary_to else STR_CS2}\n'
+                    f'{BLUE}Зарплата:{NONCOLOR} от {f"{self.__salary_from:_}" if self.__salary_from else l_cs1}'
+                    f' до {f"{self.__salary_to:_}" if self.__salary_to else l_cs1} '
+                    f'{f"({self.__salary_currency})" if self.__salary_from or self.__salary_to else l_cs2}\n'
                     f'{BLUE}Платформа:{NONCOLOR} {self.__platform}')
 
         return (f'{BLUE}Вакансия:{NONCOLOR} {self.__name}\n'
                 f'{BLUE}Опыт работы:{NONCOLOR} {self.__experience}\n'
                 f'{BLUE}Город:{NONCOLOR} {self.__area}\n'
 
-                f'{BLUE}Зарплата:{NONCOLOR} от {f"{self.__salary_from:_}" if self.__salary_from else STR_CS1}'
-                f' до {f"{self.__salary_to:_}" if self.__salary_to else STR_CS1} '
-                f'{f"({self.__salary_currency})" if self.__salary_from or self.__salary_to else STR_CS2}\n'
+                f'{BLUE}Зарплата:{NONCOLOR} от {f"{self.__salary_from:_}" if self.__salary_from else l_cs1}'
+                f' до {f"{self.__salary_to:_}" if self.__salary_to else l_cs1} '
+                f'{f"({self.__salary_currency})" if self.__salary_from or self.__salary_to else l_cs2}\n'
 
-                f'{BLUE}Зарплата в рублях:{NONCOLOR} от {f"{self.__rub_salary_from:_}" if self.__salary_from else STR_CS1}'
-                f' до {f"{self.__rub_salary_to:_}" if self.__salary_to else STR_CS1}\n'
+                f'{BLUE}Зарплата в рублях:{NONCOLOR} от {f"{self.__rub_salary_from:_}" if self.__salary_from else l_cs1}'
+                f' до {f"{self.__rub_salary_to:_}" if self.__salary_to else l_cs1}\n'
 
                 f'{BLUE}Платформа:{NONCOLOR} {self.__platform}')
 
